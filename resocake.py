@@ -36,6 +36,7 @@ def main():
             newline = Line(p,q)
             doodle(newline,randcolor(),win)
             lines.append(newline)
+        indicator.setBackground("green")
                     
 def randcolor():
     r = randint(3,5)
